@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+
+.question-header{
+    display: flex;
+    justify-self: center;
+}
+
+.quest-info-wrap {
+    margin: 10px;
+    font-size:1rem;
+    line-height: 3.1;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+
+
+    background-color: silver;
+}
+
+.quest-text {
+    display:flex;
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+.box-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}

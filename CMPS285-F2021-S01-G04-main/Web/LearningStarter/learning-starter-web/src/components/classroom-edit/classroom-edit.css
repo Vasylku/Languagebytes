@@ -1,0 +1,94 @@
+.classroom-content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  }
+  
+  .create-classroom-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+  }
+  .field-label-edit{
+      align-items: center;
+  }
+ .classroom-content-form-edit{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+    
+ }
+ .btn-edit-wrap{
+     align-content: center;
+ }
+  
+  .button-create-classroom {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .error-msg{
+     color: red;
+     justify-content: center;
+  }
+  .edit-content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+  }
+  .edit-check-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    background: rgb(71, 3, 3);
+    color: antiquewhite;
+    padding: 4rem;
+    margin:4rem;
+  }
+  .check-card-text-wrap{
+      display:flex ;
+      flex-direction: column;
+      line-height: 1.2;
+      align-items: center;
+      text-align: center;
+
+  }
+  .btn-class-edits{
+    background: rgb(255, 166, 0);
+    color: black;
+    border-radius:25%;
+    border: 0;
+    outline: none;
+    width: 100px;
+    cursor: pointer;
+    padding: 0.5rem 1rem; 
+    font-size: 20px;
+  }
+  .btn-cancel-edit{
+    background: rgb(63, 141, 83);
+    color: black;
+    border-radius:25%;
+    border: 0;
+    outline: none;
+    width: 100px;
+    cursor: pointer;
+    padding: 0.5rem 1rem; 
+    font-size: 20px;
+  }
+  .btn-back{
+      background: rgb(187, 182, 182);
+      color: black;
+      border-radius: 50%;
+      padding: 0.1rem;
+  }
+  .btn-back:hover{
+      background: white;
+  }

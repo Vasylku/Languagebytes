@@ -1,0 +1,55 @@
+.home-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 50px;
+    text-align: center;
+    border-radius: 30%;
+    margin-top: 10px;
+  
+    }
+    .home-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    .home-body-text {
+        margin-bottom: 40px;
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        color: black;
+        letter-spacing: 1.4px;
+        margin-bottom: 16px;
+      }
+  .home-img-wrapper {
+       max-width: 780px;    
+    }    
+.home-back-img {
+     justify-content: center;
+     align-self: center;
+     max-width: 90%;
+     margin-top: 5px;
+     border-radius: 25%;    
+ }
+    .lighter
+    {
+      background-color: transparent;    
+    }
+    .darker
+    {
+      background-color: black;
+    }
+    .light
+    {
+        color: #fdf9f9; 
+    }
+    
+    #particles-home
+    {
+      z-index: -1;  
+    }
+    
+   
+    
+    

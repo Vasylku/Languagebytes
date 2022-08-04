@@ -1,0 +1,49 @@
+ .classroom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    }
+.card-classroom-head{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25%;
+    max-width: 300px;
+    background: black;
+    color: antiquewhite;
+    margin:2rem;
+    padding:2rem;
+    text-align: center;
+    
+}
+.separator-line{
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+.class-col-cards{
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+   
+}
+.card-student{
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+  
+}
+.cl-users-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    border-radius: 40%;
+    background: rgb(15, 1, 1);
+    color: aliceblue;
+    padding: 3rem;
+    margin: 3rem; 
+}

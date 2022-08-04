@@ -1,0 +1,19 @@
+.enrollment-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+.btn-enroll{
+  border-radius:10%;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.flex-card-direction{
+    display: flex;
+    flex-flow: row wrap;
+}

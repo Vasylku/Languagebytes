@@ -1,0 +1,39 @@
+.enroll-container{
+   width: 500px;
+   height :40vh;
+}
+.btn-enroll-student{
+
+    background-color: rgb(243, 188, 6);
+    color: black;
+    width: 200px;
+    border-radius: 25%;
+    margin-top: 10px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    padding: 0.5rem 1rem; 
+    font-size: 20px;
+}
+.btn-enroll-student:hover{
+
+    background-color: cornsilk;
+    transform:scale(1.1);
+}
+.enroll-cancel-btn{
+    background-color: rgb(42, 102, 3);
+    color: black;
+    width: 200px;
+    border-radius: 25%;
+    margin-top: 10px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    padding: 0.5rem 1rem; 
+    font-size: 20px;
+}
+.enroll-cancel-btn:hover{
+
+    background-color: cornsilk;
+    transform:scale(1.1);
+}

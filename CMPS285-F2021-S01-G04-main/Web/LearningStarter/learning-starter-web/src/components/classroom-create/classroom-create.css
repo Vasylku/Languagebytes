@@ -1,0 +1,24 @@
+.classroom-content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  }
+  
+  .create-classroom-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .button-create-classroom {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .error-msg{
+    color: red;
+  }

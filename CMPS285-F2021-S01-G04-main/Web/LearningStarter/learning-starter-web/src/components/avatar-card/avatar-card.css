@@ -1,0 +1,39 @@
+.avatar{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width:100%;
+  justify-content: center;
+  align-items: center; 
+
+}
+
+
+.avatar-img{
+  /*background:url("https://i.pinimg.com/originals/46/ef/b6/46efb6b132359fffe2b27a2afad41aec.png") no-repeat center;*/
+  vertical-align: middle;
+  background-size: 100%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+
+}
+.avatar-button{
+  border-radius: 25%;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 20px 36px;
+  font-size: 20px;
+  background-color: #acacac;  
+}
+.avatar-button a{
+  text-decoration: none;
+  color: black;
+}
+.avatar-button:hover{
+  transition: all 0.3s ease-out;
+  background: rgb(246, 248, 131);
+  color: #242424;
+  transition: 250ms;
+}

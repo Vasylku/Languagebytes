@@ -1,0 +1,138 @@
+.class-card{
+ /*  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  max-width: 400px;
+  margin: 4rem;
+  text-align: center; */
+ /*  width: 500px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+  padding: 1%;
+  background: linear-gradient(rgb(248, 248, 250), 76%, rgb(141, 141, 141)); */
+  display: grid;
+ column-gap: 200px;
+ grid-template-columns:2fr 2fr;
+
+}
+.class-card-section{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ transition: all .3s ease-in-out;
+ opacity:calc(1);
+ min-width: 400px;
+ flex-grow: 1;
+ border-radius: 15px;
+ box-shadow: 0px 0px 25px -5px;
+ background:content-box radial-gradient(rgb(0, 0, 0), rgb(38, 41, 2)); ;
+}
+
+.class-card-info-wrap{
+margin: 20px;
+font-size:1rem;
+line-height: 3.1;
+color: rgb(255, 254, 254);
+letter-spacing: 1.4px;
+margin-bottom: 16px;
+}
+.btn-classroom{
+border-radius:10%;
+outline: none;
+border: 0;
+cursor: pointer;
+padding: 0.5rem 1rem; 
+font-size: 20px;
+}
+.btn-classroom:hover{
+background:#ffff;
+transform:scale(1.1);
+}
+.btn-class-delete{
+  border-radius: 25%;
+  background: red;
+  color: black;
+  border: 0;
+  width: 200px;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem; 
+  font-size: 20px;
+}
+.btn-class-delete:hover{
+  background-color: cornsilk;
+  transform:scale(1.1);
+}
+.btn-admin-edit{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.btn-class-edit{
+  background: rgb(255, 166, 0);
+  color: black;
+  border-radius:25%;
+  border: 0;
+  
+  outline: none;
+  width: 200px;
+  cursor: pointer;
+  padding: 0.5rem 1rem; 
+  font-size: 20px;
+}
+.btn-class-edit:hover{
+  background-color: cornsilk;
+  transform:scale(1.1);
+}
+.fa-ellipsis-h{
+  color:rgb(255, 255, 255);
+  height: 30px;
+}
+.class-card-section{
+margin:10px;
+width:90%;
+}
+.popup-container {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+.popup-content {
+  padding: 16px;
+  text-align: center;
+  font-size: medium;
+  color:black;
+}
+.btn-wrap-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 2;
+}
+.cancel-btn{
+    background-color: rgb(42, 102, 3);
+    color: black;
+    width: 200px;
+    border-radius: 25%;
+  }
+  .cancel-btn:hover{
+    background: cornsilk;
+    transform:scale(1.1);
+    
+  }
+  @media screen and (max-width: 650px){
+
+    .class-card{
+      display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+   
+   }
+ }
